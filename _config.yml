@@ -2,8 +2,8 @@
 
 title: Context Bank
 description: A structured knowledge repository for humans and AI
-baseurl: "" # Set to "/repo-name" if not using custom domain
-url: "" # Your GitHub Pages URL
+baseurl: "/context-bank-test"
+url: "https://morreau.github.io"
 
 # Build settings
 markdown: kramdown
