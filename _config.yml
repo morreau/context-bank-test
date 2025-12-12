@@ -1,0 +1,24 @@
+# Jekyll configuration for GitHub Pages
+
+title: Context Bank
+description: A structured knowledge repository for humans and AI
+baseurl: "" # Set to "/repo-name" if not using custom domain
+url: "" # Your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections (folder must be named _articles)
+collections:
+  articles:
+    output: true
+    permalink: /articles/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: "articles"
+      type: "articles"
+    values:
+      layout: "post"
